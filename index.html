@@ -1,0 +1,113 @@
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+<link href="https://htmlku.com/semangat/play/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+  <title>Selamat Ulang Tahun, Sayangkuu!</title>
+</head>
+
+<body>
+
+  <div id="bodyblur">
+    <!-- Wallpaper / Background --><img src="https://feeldreams.github.io/pics/awan6.jpg" id="wallpaper" />
+  </div>
+
+  <div class="kumpulanstiker">
+    <!-- Stiker untuk Konten -->
+    <img src="https://feeldreams.github.io/pandapanah.gif" id="stiker1" />
+    <img src="https://feeldreams.github.io/mmm.gif" id="stiker2" />
+    <img src="https://feeldreams.github.io/smprt.gif" id="stiker3" />
+    <img src="https://feeldreams.github.io/gumush.gif" id="stiker4" />
+    <img src="https://feeldreams.github.io/mndkat.gif" id="stiker5" />
+    <img src="https://feeldreams.github.io/g5.gif" id="stiker6" />
+    <img src="https://feeldreams.github.io/tinju.gif" id="stiker7" />
+  </div>
+
+  <div id='Content'>
+
+    <div id="suratin" onClick="memulai();audio.play();">
+      <!-- Surat --><img src="https://rayyscoding.github.io/envelope.png" />
+    </div>
+    <p id="ket">Klik Suratnya!</p>
+
+    <div>
+      <!-- Foto Akhir -->
+      <img src="https://feeldreams.github.io/gigitin.gif" id="fotoakhir" />
+      <img src="https://feeldreams.github.io/emawh.gif" id="fotoakhir2" />
+    </div>
+    <div>
+      <blockquote id='bq'>
+        <p id="kalimat"></p>
+        <p id="kalimatc"></p>
+      </blockquote>
+    </div>
+
+    <!-- Tombol Kirim Pesan -->
+    <div id="Tombol">
+      <a onClick="sjawab()">
+        <b>💌 Balas</b>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://htmlku.com/semangat/play/script.js"></script>
+
+  <script type="text/javascript">
+    async function pertama() {
+      audio = new Audio('videoplayback.m4a'); setTimeout(showDiv, 500);
+    } pertama();
+
+    async function pesan() {
+      await swalst.fire({
+        title: 'Selamat Ulang Tahun, Sayanggg! 🎉',
+        imageUrl: '' + stiker1.src,
+      });
+      await swalst.fire({
+        title: 'Semoga hari ini penuh dengan cinta dan kebahagiaan! 🥳',
+        imageUrl: '' + stiker2.src,
+        timer: 5000
+      });
+      await swalst.fire({
+        title: 'Semoga semua impianmu menjadi kenyataan! 🌟',
+        imageUrl: '' + stiker3.src,
+        timer: 5000
+      });
+      await swalst.fire({
+        title: 'Kamu pantas mendapatkan semua kebahagiaan di dunia ini! 😊',
+        imageUrl: '' + stiker4.src,
+        timer: 5000
+      });
+      await swalst.fire({
+        title: 'Enjoy your special day to the fullest! 🎂',
+        imageUrl: '' + stiker5.src,
+        timer: 5000
+      });
+      await swalst.fire({
+        title: 'Cheers to another year of amazing adventures! 🥂',
+        imageUrl: '' + stiker6.src,
+        timer: 5000
+      });
+      await swalst.fire({
+        title: 'Stay awesome and keep shining! ✨',
+        imageUrl: '' + stiker7.src,
+        timer: 5000
+      });
+
+      katangetik = "<b class='garismerah'>Last but not least,</b> selalu ingat betapa istimewanya kamu bagiku. Aku juga ingin ngucapin semangat jadi koor medianya, semangat ngeditnya, semoga lancar yah sayang! Semoga kejutan kecil ini bisa membuatmu tersenyum dan membuat harimu semakin indah!<br><br>Tetaplah menjadi pribadi yang luar biasa dan ketahuilah bahwa aku selalu mendukungmu!";
+      katangetik2 = "<i>Selamat Ulang Tahun sekali lagi, Sayangg! 🎈</i>";
+      ktbwh2 = "Tetap Sehat dan Bahagia selalu ya! 🎊";
+      ktbwh3 = "Dengan penuh cinta, Mas Arifin ❤️";
+
+      pesanwhatsapp = "Mengirimkan banyak cinta dan harapan hangat di hari istimewamu! 💖";
+      setTimeout(kpemb, 500);
+    }
+  </script>
+</body>
+
+</html>
